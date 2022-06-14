@@ -32,7 +32,7 @@
 
 <div id="map" style="width: 800px; height: 700px;"></div>
 
-<!-- <iframe frameborder=0 style='width:100%;height: 700px' src='./example-basic.html'> </iframe>-->
+<iframe frameborder=0 style='width:100%;height: 700px' src='https://laverbenaelectronica.github.io/STEAMconA/'> </iframe>
 <script>
 
 	var map = L.map('map').setView([40.86619,-3.61548], 13);
@@ -46,10 +46,17 @@
 		zoomOffset: -1
 	}).addTo(map);
 
-var marker = L.marker([40.868416, -3.637481])
-.addTo(map)
-.bindPopup('<h4> -- Convento de San Antonio -- </h4> <img src="./imagenes/plastica/convento-small.jpg" />');
+var imageUrl = 'imagenes/plastica/ar1.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen elaborada por Adolfo Rodríguez García';
+var latLngBounds = L.latLngBounds([[40.86619,-3.61548], [40.867,-3.616]]);
 
+var imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
+    opacity: 0.8,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map);
 
 </script>
 
