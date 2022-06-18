@@ -4,9 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Quick Start - Leaflet</title>
-	
-	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+	<title>STEAM con A - IES LA CABRERA</title>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
 	<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
@@ -36,42 +34,12 @@
 <script type="text/javascript">
 	var map = L.map('map').setView([40.86619,-3.61548], 13);
 
-	var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-		maxZoom: 20,
-		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-		id: 'mapbox/streets-v11',
-		tileSize: 512,
-		zoomOffset: -1
-	}).addTo(map);
-	
-	var audioIcon = L.icon({
-    iconUrl: 'audio.png',
+  L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png', {maxZoom: 20}).addTo(map);
 
-    iconSize: [32, 37],
-    shadowSize: [0, 0],
-    iconAnchor: [16, 37],
-    shadowAnchor: [0, 0],
-    popupAnchor: [0, -37]
-  });
-  
-  function onEachAudio(feature, layer) {
-    layer.bindPopup(feature.properties.name + "<br>" + feature.properties.html);
-  };
-
-  new L.GeoJSON.AJAX("audio.geojson", {
-    onEachFeature: onEachAudio,
-    pointToLayer: function(feature, latlng) {
-      return L.marker(latlng, {icon: audioIcon});
-    }
-  }).addTo(map);
-
-
-  L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png', 
-    {
-      attribution: '<a href="http://maps.stamen.com/">Stamen base map</a>',
-          maxZoom: 20
-  }).addTo(map);
+var markerAudio1 = L.marker([40.86,-3.61548], {}).bindPopup('<h3>Desde hacía algún tiempo</h3><audio controls><source src="https://archive.org/download/steam-con-a-ies-la-cabrera/Desde-hace-un-tiempo.mp3" type="audio/mp3">Tu navegador no soporta audio.</audio>').openPopup().addTo(map);
+var markerAudio2 = L.marker([40.850648, -3.627969], {}).bindPopup('<h3>Había pasado un mes</h3><audio controls><source src="https://archive.org/download/steam-con-a-ies-la-cabrera/Habia-pasado-un-mes.mp3" type="audio/mp3">Tu navegador no soporta audio.</audio>').openPopup().addTo(map);
+var markerAudio3 = L.marker([40.838409, -3.636872], {}).bindPopup('<h3>Desperté otro día más</h3><audio controls><source src="https://archive.org/download/steam-con-a-ies-la-cabrera/relato%203.mp3" type="audio/mp3">Tu navegador no soporta audio.</audio>').openPopup().addTo(map);
+var markerAudio4 = L.marker([40.826265, -3.633525], {}).bindPopup('<h3>El Hombre es el Lobo del Hombre</h3><audio controls><source src="https://archive.org/download/steam-con-a-ies-la-cabrera/relato%204.mp3" type="audio/mp3">Tu navegador no soporta audio.</audio>').openPopup().addTo(map);
 
 </script>
 
