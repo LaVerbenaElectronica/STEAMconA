@@ -127,3 +127,38 @@ var imageOverlay = L.imageOverlay(cs2, latLngBounds, {
     alt: altText,
     interactive: true
 }).addTo(map).bindPopup(altText);
+
+//daniel-garcia
+
+var dg1 = 'imagenes/plastica/daniel-garcia/dg1.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Beltrán Acevedo de Miguel';
+var latLngBounds = L.latLngBounds([[40.850548, -3.629979], [40.851548, -3.631979]]);
+var imageOverlay = L.imageOverlay(dg1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var dg2 = 'imagenes/plastica/daniel-garcia/dg2.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Beltrán Acevedo de Miguel';
+var latLngBounds = L.latLngBounds([[40.850448, -3.624999], [40.851448, -3.626999]]);
+var imageOverlay = L.imageOverlay(dg2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var dg3 = 'imagenes/plastica/daniel-garcia/dg3.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Beltrán Acevedo de Miguel';
+var latLngBounds = L.latLngBounds([[40.847748, -3.622959], [40.848748, -3.624959]]);
+var imageOverlay = L.imageOverlay(dg3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
