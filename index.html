@@ -9,7 +9,8 @@
 	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+	<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+    <script src="leaflet.ajax.min.js"></script>
 
 	<style>
 		html, body {
@@ -32,8 +33,7 @@
 
 <div id="map" style="width: 800px; height: 700px;"></div>
 
-<script>
-
+<script type="text/javascript">
 	var map = L.map('map').setView([40.86619,-3.61548], 13);
 
 	var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
@@ -44,6 +44,35 @@
 		tileSize: 512,
 		zoomOffset: -1
 	}).addTo(map);
+	
+	var audioIcon = L.icon({
+    iconUrl: 'audio.png',
+
+    iconSize: [32, 37],
+    shadowSize: [0, 0],
+    iconAnchor: [16, 37],
+    shadowAnchor: [0, 0],
+    popupAnchor: [0, -37]
+  });
+  
+  function onEachAudio(feature, layer) {
+    layer.bindPopup(feature.properties.name + "<br>" + feature.properties.html);
+  };
+
+  new L.GeoJSON.AJAX("audio.geojson", {
+    onEachFeature: onEachAudio,
+    pointToLayer: function(feature, latlng) {
+      return L.marker(latlng, {icon: audioIcon});
+    }
+  }).addTo(map);
+
+
+  L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png', 
+    {
+      attribution: '<a href="http://maps.stamen.com/">Stamen base map</a>',
+          maxZoom: 20
+  }).addTo(map);
+
 </script>
 
 <script src="imagenes/js/plastica.js"></script>
