@@ -373,35 +373,105 @@ var imageOverlay = L.imageOverlay(hs3, latLngBounds, {
     interactive: true
 }).addTo(map).bindPopup(altText);
 
-//hugo-saiz
+//ioana-petrache
 
-var hs1 = 'imagenes/plastica/hugo-saiz/hs1.jpg';
+var ip1 = 'imagenes/plastica/ioana-petrache/ip1.jpg';
 var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
-var altText = 'Imagen 1 elaborada por Hugo Saiz de Aja Martin';
-var latLngBounds = L.latLngBounds([[40.841898,-3.634928], [40.842898,-3.635928]]);
-var imageOverlay = L.imageOverlay(hs1, latLngBounds, {
+var altText = 'Imagen 1 elaborada por Ioana Cristina Petrache';
+var latLngBounds = L.latLngBounds([[40.829444, -3.636667], [40.830444, -3.639667]]);
+var imageOverlay = L.imageOverlay(ip1, latLngBounds, {
     opacity: 0.9,
     errorOverlayUrl: errorOverlayUrl,
     alt: altText,
     interactive: true
 }).addTo(map).bindPopup(altText);
 
-var hs2 = 'imagenes/plastica/hugo-saiz/hs2.jpg';
+var ip2 = 'imagenes/plastica/ioana-petrache/ip2.jpg';
 var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
-var altText = 'Imagen 2 elaborada por Hugo Saiz de Aja Martin';
-var latLngBounds = L.latLngBounds([[40.854880,-3.626193], [40.855880,-3.627193]]);
-var imageOverlay = L.imageOverlay(hs2, latLngBounds, {
+var altText = 'Imagen 2 elaborada por Ioana Cristina Petrache';
+var latLngBounds = L.latLngBounds([[40.831250, -3.638667], [40.832250, -3.640667]]);
+var imageOverlay = L.imageOverlay(ip2, latLngBounds, {
     opacity: 0.9,
     errorOverlayUrl: errorOverlayUrl,
     alt: altText,
     interactive: true
 }).addTo(map).bindPopup(altText);
 
-var hs3 = 'imagenes/plastica/hugo-saiz/hs3.jpg';
+var ip3 = 'imagenes/plastica/ioana-petrache/ip3.jpg';
 var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
-var altText = 'Imagen 3 elaborada por Hugo Saiz de Aja Martin';
-var latLngBounds = L.latLngBounds([[40.855972,-3.624332], [40.856972,-3.625332]]);
-var imageOverlay = L.imageOverlay(hs3, latLngBounds, {
+var altText = 'Imagen 3 elaborada por Ioana Cristina Petrache';
+var latLngBounds = L.latLngBounds([[40.859694, -3.620139], [40.860694, -3.622139]]);
+var imageOverlay = L.imageOverlay(ip3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//julia-monge
+
+var jm1 = 'imagenes/plastica/julia-monge/jm1.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Julia Monge Moreno';
+var latLngBounds = L.latLngBounds([[40.845361, -3.633972], [40.846361, -3.634972]]);
+var imageOverlay = L.imageOverlay(jm1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var jm2 = 'imagenes/plastica/julia-monge/jm2.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Julia Monge Moreno';
+var latLngBounds = L.latLngBounds([[40.847722, -3.631361], [40.848722, -3.632361]]);
+var imageOverlay = L.imageOverlay(jm2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var jm3 = 'imagenes/plastica/julia-monge/jm3.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Julia Monge Moreno';
+var latLngBounds = L.latLngBounds([[40.859139, -3.619917], [40.860139, -3.620917]]);
+var imageOverlay = L.imageOverlay(jm3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//klaudia-pastwa
+
+var kp1 = 'imagenes/plastica/klaudia-pastwa/kp1.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Klaudia Pastwa';
+var latLngBounds = L.latLngBounds([[40.826852, -3.629130], [40.827852, -3.629630]]);
+var imageOverlay = L.imageOverlay(kp1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var kp2 = 'imagenes/plastica/klaudia-pastwa/kp2.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Klaudia Pastwa';
+var latLngBounds = L.latLngBounds([[40.831250, -3.638667], [40.832250, -3.639367]]);
+var imageOverlay = L.imageOverlay(kp2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var kp3 = 'imagenes/plastica/klaudia-pastwa/kp3.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Klaudia Pastwa';
+var latLngBounds = L.latLngBounds([[40.838444, -3.636694], [40.839444, -3.637194]]);
+var imageOverlay = L.imageOverlay(kp3, latLngBounds, {
     opacity: 0.9,
     errorOverlayUrl: errorOverlayUrl,
     alt: altText,
