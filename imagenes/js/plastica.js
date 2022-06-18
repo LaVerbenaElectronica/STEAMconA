@@ -96,7 +96,7 @@ var imageOverlay = L.imageOverlay(ba2, latLngBounds, {
 var ba3 = 'imagenes/plastica/beltran-acevedo/ba3.png';
 var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
 var altText = 'Imagen 3 elaborada por Beltrán Acevedo de Miguel';
-var latLngBounds = L.latLngBounds([[40.85550,-3.61833], [40.85650,-3.61933]]);
+var latLngBounds = L.latLngBounds([[40.85550,-3.61833], [40.85650,-3.62033]]);
 var imageOverlay = L.imageOverlay(ba3, latLngBounds, {
     opacity: 0.9,
     errorOverlayUrl: errorOverlayUrl,
@@ -132,7 +132,7 @@ var imageOverlay = L.imageOverlay(cs2, latLngBounds, {
 
 var dg1 = 'imagenes/plastica/daniel-garcia/dg1.png';
 var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
-var altText = 'Imagen 1 elaborada por Beltrán Acevedo de Miguel';
+var altText = 'Imagen 1 elaborada por Daniel García Corral';
 var latLngBounds = L.latLngBounds([[40.850548, -3.629979], [40.851548, -3.631979]]);
 var imageOverlay = L.imageOverlay(dg1, latLngBounds, {
     opacity: 0.9,
@@ -143,7 +143,7 @@ var imageOverlay = L.imageOverlay(dg1, latLngBounds, {
 
 var dg2 = 'imagenes/plastica/daniel-garcia/dg2.png';
 var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
-var altText = 'Imagen 2 elaborada por Beltrán Acevedo de Miguel';
+var altText = 'Imagen 2 elaborada por Daniel García Corral';
 var latLngBounds = L.latLngBounds([[40.850448, -3.624999], [40.851448, -3.626999]]);
 var imageOverlay = L.imageOverlay(dg2, latLngBounds, {
     opacity: 0.9,
@@ -154,9 +154,149 @@ var imageOverlay = L.imageOverlay(dg2, latLngBounds, {
 
 var dg3 = 'imagenes/plastica/daniel-garcia/dg3.png';
 var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
-var altText = 'Imagen 3 elaborada por Beltrán Acevedo de Miguel';
+var altText = 'Imagen 3 elaborada por Daniel García Corral';
 var latLngBounds = L.latLngBounds([[40.847748, -3.622959], [40.848748, -3.624959]]);
 var imageOverlay = L.imageOverlay(dg3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//daniel-rodriguez
+
+var dr1 = 'imagenes/plastica/daniel-rodriguez/dr1.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Daniel Rodríguez Ruiz';
+var latLngBounds = L.latLngBounds([[40.845548, -3.627879], [40.846548, -3.629879]]);
+var imageOverlay = L.imageOverlay(dr1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var dr2 = 'imagenes/plastica/daniel-rodriguez/dr2.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Daniel Rodríguez Ruiz';
+var latLngBounds = L.latLngBounds([[40.855448,-3.627909], [40.856448,-3.629909]]);
+var imageOverlay = L.imageOverlay(dr2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var dr3 = 'imagenes/plastica/daniel-rodriguez/dr3.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Daniel Rodríguez Ruiz';
+var latLngBounds = L.latLngBounds([[40.852748, -3.627779], [40.853748, -3.629779]]);
+var imageOverlay = L.imageOverlay(dr3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//daniela-ruiz
+
+var dar1 = 'imagenes/plastica/daniela-ruiz/dar1.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Daniela Ruiz García';
+var latLngBounds = L.latLngBounds([[40.846548, -3.637879], [40.847548, -3.638879]]);
+var imageOverlay = L.imageOverlay(dar1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var dar2 = 'imagenes/plastica/daniela-ruiz/dar2.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Daniela Ruiz García';
+var latLngBounds = L.latLngBounds([[40.855448,-3.627909], [40.856448,-3.629909]]);
+var imageOverlay = L.imageOverlay(dar2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//david-nastanski
+
+var dn1 = 'imagenes/plastica/david-nastanski/dn1.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por David Nastanksi';
+var latLngBounds = L.latLngBounds([[40.823838,-3.628520], [40.824838,-3.630520]]);
+var imageOverlay = L.imageOverlay(dn1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var dn2 = 'imagenes/plastica/david-nastanski/dn2.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por David Nastanksi';
+var latLngBounds = L.latLngBounds([[40.825420,-3.628216], [40.826420,-3.629216]]);
+var imageOverlay = L.imageOverlay(dn2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var dn3 = 'imagenes/plastica/david-nastanski/dn3.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por David Nastanksi';
+var latLngBounds = L.latLngBounds([[40.836444,-3.637938], [40.837444,-3.639938]]);
+var imageOverlay = L.imageOverlay(dn3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var dn4 = 'imagenes/plastica/david-nastanski/dn4.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 4 elaborada por David Nastanksi';
+var latLngBounds = L.latLngBounds([[40.857278,-3.625034], [40.858278,-3.627034]]);
+var imageOverlay = L.imageOverlay(dn4, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//diego-vicente
+
+var dv1 = 'imagenes/plastica/diego-vicente/dv1.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Diego Vicente Jimenez';
+var latLngBounds = L.latLngBounds([[40.8290,-3.63574], [40.8300,-3.63674]]);
+var imageOverlay = L.imageOverlay(dv1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var dv2 = 'imagenes/plastica/diego-vicente/dv2.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Diego Vicente Jimenez';
+var latLngBounds = L.latLngBounds([[40.82909,-3.63574], [40.83009,-3.63674]]);
+var imageOverlay = L.imageOverlay(dv2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var dv3 = 'imagenes/plastica/diego-vicente/dv3.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Diego Vicente Jimenez';
+var latLngBounds = L.latLngBounds([[40.85688,-3.62222], [40.85788,-3.62322]]);
+var imageOverlay = L.imageOverlay(dv3, latLngBounds, {
     opacity: 0.9,
     errorOverlayUrl: errorOverlayUrl,
     alt: altText,
