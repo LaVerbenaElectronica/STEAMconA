@@ -284,7 +284,7 @@ var imageOverlay = L.imageOverlay(dv1, latLngBounds, {
 var dv2 = 'imagenes/plastica/diego-vicente/dv2.jpg';
 var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
 var altText = 'Imagen 2 elaborada por Diego Vicente Jimenez';
-var latLngBounds = L.latLngBounds([[40.82909,-3.63574], [40.83009,-3.63674]]);
+var latLngBounds = L.latLngBounds([[40.82909,-3.63474], [40.83009,-3.63574]]);
 var imageOverlay = L.imageOverlay(dv2, latLngBounds, {
     opacity: 0.9,
     errorOverlayUrl: errorOverlayUrl,
@@ -297,6 +297,76 @@ var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
 var altText = 'Imagen 3 elaborada por Diego Vicente Jimenez';
 var latLngBounds = L.latLngBounds([[40.85688,-3.62222], [40.85788,-3.62322]]);
 var imageOverlay = L.imageOverlay(dv3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//florin-andrei
+
+var fa1 = 'imagenes/plastica/florin-andrei/fa1.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Florin Andrei';
+var latLngBounds = L.latLngBounds([[40.829694, -3.653889], [40.830694, -3.654889]]);
+var imageOverlay = L.imageOverlay(fa1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var fa2 = 'imagenes/plastica/florin-andrei/fa2.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Florin Andrei';
+var latLngBounds = L.latLngBounds([[40.856917, -3.619972], [40.857917, -3.620972]]);
+var imageOverlay = L.imageOverlay(fa2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var fa3 = 'imagenes/plastica/florin-andrei/fa3.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Florin Andrei';
+var latLngBounds = L.latLngBounds([[40.857306, -3.624028], [40.858306, -3.625028]]);
+var imageOverlay = L.imageOverlay(fa3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//hugo-saiz
+
+var hs1 = 'imagenes/plastica/hugo-saiz/hs1.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Hugo Saiz de Aja Martin';
+var latLngBounds = L.latLngBounds([[40.841898,-3.634928], [40.842898,-3.635928]]);
+var imageOverlay = L.imageOverlay(hs1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var hs2 = 'imagenes/plastica/hugo-saiz/hs2.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Hugo Saiz de Aja Martin';
+var latLngBounds = L.latLngBounds([[40.854880,-3.626193], [40.855880,-3.627193]]);
+var imageOverlay = L.imageOverlay(hs2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var hs3 = 'imagenes/plastica/hugo-saiz/hs3.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Hugo Saiz de Aja Martin';
+var latLngBounds = L.latLngBounds([[40.855972,-3.624332], [40.856972,-3.625332]]);
+var imageOverlay = L.imageOverlay(hs3, latLngBounds, {
     opacity: 0.9,
     errorOverlayUrl: errorOverlayUrl,
     alt: altText,
