@@ -60,7 +60,7 @@ var markerAudio4 = L.marker([40.831483, -3.637601], {icon: greenIcon})
 
 var titulo7 = 'Entrevista realizada a alumnado de 1º ESO del IES la Cabrera';
 var url7 = 'https://archive.org/download/steam-con-a-literatura/entrevistas-ies-la-cabrera.mp3';
-var markerAudio4 = L.marker([40.867584, -3.609892], {icon: blackIcon})
+var markerAudio4 = L.marker([40.867284, -3.609492], {icon: blackIcon})
 .bindPopup('<h3>'+titulo7+'</h3><audio controls><source src="'+url7+'" type="audio/mp3">Tu navegador no soporta audio.</audio>')
 .openPopup()
 .addTo(map);
