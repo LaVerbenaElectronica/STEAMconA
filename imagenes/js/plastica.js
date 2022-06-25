@@ -477,3 +477,73 @@ var imageOverlay = L.imageOverlay(kp3, latLngBounds, {
     alt: altText,
     interactive: true
 }).addTo(map).bindPopup(altText);
+
+//lucia-gutierrez
+
+var lg1 = 'imagenes/plastica/lucia-gutierrez/lg1.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Lucía Gutierrez';
+var latLngBounds = L.latLngBounds([[40.860464, -3.618964], [40.861464, -3.619995]]);
+var imageOverlay = L.imageOverlay(lg1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var lg2 = 'imagenes/plastica/lucia-gutierrez/lg2.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Lucía Gutierrez';
+var latLngBounds = L.latLngBounds([[40.857124, -3.624184], [40.857124, -3.624784]]);
+var imageOverlay = L.imageOverlay(lg2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var lg3 = 'imagenes/plastica/lucia-gutierrez/lg3.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Lucía Gutierrez';
+var latLngBounds = L.latLngBounds([[40.856154, -3.625624], [40.857154, -3.626624]]);
+var imageOverlay = L.imageOverlay(lg3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//maria-sanchez
+
+var ms1 = 'imagenes/plastica/maria-sanchez/ms1.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por María Licai Sanchez Marcos';
+var latLngBounds = L.latLngBounds([[40.834113, -3.639172], [40.835113, -3.639872]]);
+var imageOverlay = L.imageOverlay(ms1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var ms2 = 'imagenes/plastica/maria-sanchez/ms2.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por María Licai Sanchez Marcos';
+var latLngBounds = L.latLngBounds([[40.827905, -3.635547], [40.828905, -3.636247]]);
+var imageOverlay = L.imageOverlay(ms2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var ms3 = 'imagenes/plastica/maria-sanchez/ms3.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por María Licai Sanchez Marcos';
+var latLngBounds = L.latLngBounds([[40.836876, -3.636674], [40.837876, -3.637374]]);
+var imageOverlay = L.imageOverlay(ms3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
