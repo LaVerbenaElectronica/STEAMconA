@@ -547,3 +547,119 @@ var imageOverlay = L.imageOverlay(ms3, latLngBounds, {
     alt: altText,
     interactive: true
 }).addTo(map).bindPopup(altText);
+
+//marian-busila
+
+var mb1 = 'imagenes/plastica/marian-busila/mb1.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Marian Gabriel Busila';
+var latLngBounds = L.latLngBounds([[40.836693,-3.636097], [40.837693,-3.636797]]);
+var imageOverlay = L.imageOverlay(mb1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var mb2 = 'imagenes/plastica/marian-busila/mb2.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Marian Gabriel Busila';
+var latLngBounds = L.latLngBounds([[40.843170,-3.634333], [40.844170,-3.636333]]);
+var imageOverlay = L.imageOverlay(mb2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var mb3 = 'imagenes/plastica/marian-busila/mb3.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Marian Gabriel Busila';
+var latLngBounds = L.latLngBounds([[40.844437,-3.634413], [40.845437,-3.636413]]);
+var imageOverlay = L.imageOverlay(mb3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var mb4 = 'imagenes/plastica/marian-busila/mb4.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 4 elaborada por Marian Gabriel Busila';
+var latLngBounds = L.latLngBounds([[40.845437,-3.631413], [40.846437,-3.633413]]);
+var imageOverlay = L.imageOverlay(mb4, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//narcisa-pavel
+
+var np1 = 'imagenes/plastica/narcisa-pavel/np1.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Narcisa María Pavel';
+var latLngBounds = L.latLngBounds([[40.8430284,-3.63428967], [40.8440284,-3.63498967]]);
+var imageOverlay = L.imageOverlay(np1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var np2 = 'imagenes/plastica/narcisa-pavel/np2.jpg';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Narcisa María Pavel';
+var latLngBounds = L.latLngBounds([[40.834722,-3.626694], [40.835722,-3.627394]]);
+var imageOverlay = L.imageOverlay(np2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var np3 = 'imagenes/plastica/narcisa-pavel/np3.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Narcisa María Pavel';
+var latLngBounds = L.latLngBounds([[40.825875,-3.628848], [40.826875,-3.629448]]);
+var imageOverlay = L.imageOverlay(np3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+//pablo-munoz
+
+var pm1 = 'imagenes/plastica/pablo-munoz/pm1.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 1 elaborada por Pablo Martín Muñoz';
+var latLngBounds = L.latLngBounds([[40.835053, -3.639391], [40.836053, -3.640391]]);
+var imageOverlay = L.imageOverlay(pm1, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var pm2 = 'imagenes/plastica/pablo-munoz/pm2.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 2 elaborada por Pablo Martín Muñoz';
+var latLngBounds = L.latLngBounds([[40.842485, -3.6402054], [40.843485, -3.641205]]);
+var imageOverlay = L.imageOverlay(pm2, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
+
+var pm3 = 'imagenes/plastica/pablo-munoz/pm3.png';
+var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+var altText = 'Imagen 3 elaborada por Pablo Martín Muñoz';
+var latLngBounds = L.latLngBounds([[40.850362, -3.634905], [40.851362, -3.635905]]);
+var imageOverlay = L.imageOverlay(pm3, latLngBounds, {
+    opacity: 0.9,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map).bindPopup(altText);
